@@ -1,4 +1,4 @@
-# blick-c
+# blink-c
 
 a hello world for stm32 with vscode and makefile
 
