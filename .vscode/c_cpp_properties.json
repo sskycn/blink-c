@@ -1,7 +1,7 @@
 {
     "configurations": [
         {
-            "name": "PlatformIO",
+            "name": "Blink",
             "includePath": [
                 "${workspaceFolder}/include",
                 "${workspaceFolder}/src",
