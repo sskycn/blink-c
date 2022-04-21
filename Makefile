@@ -73,7 +73,6 @@ AS_DEFS =
 
 # C defines
 C_DEFS =  \
--DPLATFORMIO=50205 \
 -DSTM32F4 \
 -DSTM32F407xx \
 -DSTM32F40_41xxx \
