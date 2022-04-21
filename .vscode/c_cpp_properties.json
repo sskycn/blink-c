@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib/framework-cmsis/CMSIS/Include",
+                "${workspaceFolder}/lib/framework-cmsis-stm32f4/include",
+                ""
+                
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "${workspaceFolder}/include",
+                    "${workspaceFolder}/src",
+                    "${workspaceFolder}/lib/framework-cmsis/CMSIS/Include",
+                    "${workspaceFolder}/lib/framework-cmsis-stm32f4/include",
+                    ""
+                ]
+            },
+            "defines": [
+                "STM32F4",
+                "STM32F407xx",
+                "STM32F40_41xxx",
+                "F_CPU=168000000L",
+                ""
+            ],
+            "compilerPath": "/opt/local/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mthumb",
+                "-mcpu=cortex-m4",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
