@@ -24,12 +24,12 @@ BUILD_DIR = build
 ######################################
 # C sources
 C_SOURCES =  \
-lib/system_stm32f4xx.c \
+lib/stm32f4/system_stm32f4xx.c \
 src/main.c
 
 # ASM sources
 ASM_SOURCES =  \
-lib/startup_stm32f407xx.s
+lib/stm32f4/startup_stm32f407xx.s
 
 
 #######################################
@@ -106,7 +106,7 @@ CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
 # LDFLAGS
 #######################################
 # link script
-LDSCRIPT = lib/STM32F407VGTX_FLASH.ld
+LDSCRIPT = lib/stm32f4/STM32F407VGTX_FLASH.ld
 
 # libraries
 LIBS = -lc -lm -lnosys 
