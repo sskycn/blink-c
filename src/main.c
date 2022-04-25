@@ -25,7 +25,7 @@ int main(void)
     
     while (1) 
     {
-        ms_delay(500);
+        ms_delay(200);
         LEDPORT->ODR ^= (1<<LED1);  // toggle diodes
     }
 
